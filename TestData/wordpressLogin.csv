@@ -1,0 +1,4 @@
+browser,Chrome
+driverPath, C:\\GTT\\MavenProject\\Wordpress\\Drivers\\chromedriver.exe
+url, http://localhost/wordpress/wp-login.php
+administrator,root123
