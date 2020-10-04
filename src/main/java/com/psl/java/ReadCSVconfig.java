@@ -13,13 +13,13 @@ import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 
 public class ReadCSVconfig {
-	static WebDriver driver;
+	public static WebDriver driver;
 	static String[] row = null;
 	static String browserName;
 	public static String driverPath;
 	static String url;
 	
-	public WebDriver configCsv() throws Exception {
+	public static WebDriver configCsv() throws Exception {
 		
 		String csvFilename = "C:\\GTT\\MavenProject\\Wordpress\\TestData\\properties.csv";
 				
