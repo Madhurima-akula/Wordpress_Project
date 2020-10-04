@@ -13,10 +13,10 @@ import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 
 public class ReadCSVconfig {
-	public static WebDriver driver;
+	static WebDriver driver;
 	static String[] row = null;
 	static String browserName;
-	public static String driverPath;
+	static String driverPath;
 	static String url;
 	
 	public static WebDriver configCsv() throws Exception {

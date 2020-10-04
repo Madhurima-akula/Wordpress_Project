@@ -1,0 +1,5 @@
+2020-10-05 00:04:55,472 INFO  [WordpresLogin] entering application URL 
+2020-10-05 00:04:55,473 WARN  [WordpresLogin] Hey this just a warning message 
+2020-10-05 00:04:55,473 FATAL [WordpresLogin] hey this is just fatal error message 
+2020-10-05 00:04:55,473 INFO  [WordpresLogin] Login Page 
+2020-10-05 00:04:59,580 INFO  [WordpresLogin] Home Page title : Dashboard ‹ Wordpress Site — WordPress 

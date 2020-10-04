@@ -2,6 +2,7 @@ package com.psl.java;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -15,13 +16,7 @@ public class WordpresLogin {
 	static String password;
 	static WebDriver driver;
 	
-	public static void main(String args[]) throws Exception {
-		WordpresLogin login = new WordpresLogin();
-		login.login();
-		//login.logout();
-		
-	}
-	
+	Logger log = Logger.getLogger(WordpresLogin.class);
 	@Test
 	public void login() throws Exception {
 		DatabaseConnection db = new DatabaseConnection();
@@ -30,11 +25,15 @@ public class WordpresLogin {
 		String password = credential.split("_")[1];
 		System.out.println("DB - username "+username);
 		System.out.println("DB password "+password);
-		
+		log.info("Calling CSV file");
 		ReadCSVconfig config = new ReadCSVconfig();
 		WebDriver driver = config.configCsv();
-		
-	    driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		log.info("entering application URL");
+		log.warn("Hey this just a warning message");
+		log.fatal("hey this is just fatal error message");
+		log.debug("this is debug message");
+		log.info("Login Page");
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	    driver.findElement(By.id("user_login")).sendKeys(username);
 		driver.findElement(By.id("user_pass")).sendKeys("root123");
 		driver.findElement(By.id("wp-submit")).click();
@@ -42,6 +41,7 @@ public class WordpresLogin {
 		driver.manage().window().maximize();
 		String actualTitle = driver.getTitle();
 		System.out.println("Title : "+actualTitle);
+		log.info("Home Page title : "+actualTitle);
 		String expectedTitle = "Dashboard ‹ Wordpress Site — WordPress";
 		if (actualTitle .equalsIgnoreCase(expectedTitle))
 			System.out.println("home page - Title Matched");

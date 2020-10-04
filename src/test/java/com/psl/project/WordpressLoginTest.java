@@ -2,6 +2,7 @@ package com.psl.project;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -15,6 +16,7 @@ public class WordpressLoginTest {
 	static String username;
 	static String password;
 	static WebDriver driver;
+	Logger log = Logger
 	
 	@Test
 	public void login() throws Exception {

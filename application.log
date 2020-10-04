@@ -1,0 +1,7 @@
+2020-10-05 00:12:13,504  INFO [main] WordpresLogin:28 - Calling CSV file
+2020-10-05 00:12:20,781  INFO [main] WordpresLogin:31 - entering application URL
+2020-10-05 00:12:20,781  WARN [main] WordpresLogin:32 - Hey this just a warning message
+2020-10-05 00:12:20,781 FATAL [main] WordpresLogin:33 - hey this is just fatal error message
+2020-10-05 00:12:20,782 DEBUG [main] WordpresLogin:34 - this is debug message
+2020-10-05 00:12:20,782  INFO [main] WordpresLogin:35 - Login Page
+2020-10-05 00:12:25,686  INFO [main] WordpresLogin:44 - Home Page title : Dashboard ‹ Wordpress Site — WordPress
