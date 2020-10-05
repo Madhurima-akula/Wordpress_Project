@@ -3,7 +3,7 @@ package com.psl.java;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

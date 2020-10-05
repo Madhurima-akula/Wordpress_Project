@@ -1,19 +1,19 @@
-2020-10-05 12:38:59,389  INFO [main] WordpresLogin:44 - ---Execution started ----
-2020-10-05 12:38:59,390  INFO [main] WordpresLogin:45 - Navigating to URL
-2020-10-05 12:39:09,946  INFO [main] WordpresLogin:52 - Window Maximized
-2020-10-05 12:39:10,152  INFO [main] WordpresLogin:55 - Enter Username...
-2020-10-05 12:39:10,225  INFO [main] WordpresLogin:57 - Enter Password
-2020-10-05 12:39:20,103  INFO [main] WordpresLogin:60 - Click submit button to login to workpress application ....
-2020-10-05 12:39:20,113  INFO [main] WordpresLogin:65 - Wordpress howe page titleDashboard â€¹ Wordpress Site â€” WordPress
-2020-10-05 12:39:20,113  INFO [main] WordpresLogin:74 - calling logout- method
-2020-10-05 12:39:25,479  INFO [main] WordpresLogin:78 - click on administrator to logout from application
-2020-10-05 12:39:26,705  INFO [main] WordpresLogin:82 - Click on logout
-2020-10-05 12:39:26,709  INFO [main] WordpresLogin:85 - Logout from wordpress
-2020-10-05 12:39:26,722  INFO [main] WordpresLogin:89 - logout page title Log In â€¹ Wordpress Site â€” WordPress
-2020-10-05 12:39:26,723  INFO [main] WordpresLogin:44 - ---Execution started ----
-2020-10-05 12:39:26,723  INFO [main] WordpresLogin:45 - Navigating to URL
-2020-10-05 12:39:27,059  INFO [main] WordpresLogin:52 - Window Maximized
-2020-10-05 12:39:27,108  INFO [main] WordpresLogin:55 - Enter Username...
-2020-10-05 12:39:27,154  INFO [main] WordpresLogin:57 - Enter Password
-2020-10-05 12:39:31,255  INFO [main] WordpresLogin:60 - Click submit button to login to workpress application ....
-2020-10-05 12:39:31,276  INFO [main] WordpresLogin:65 - Wordpress howe page titleLog In â€¹ Wordpress Site â€” WordPress
+2020-10-05 17:43:43,855  INFO [main] WordpresLogin:44 - ---Execution started ----
+2020-10-05 17:43:43,857  INFO [main] WordpresLogin:45 - Navigating to URL
+2020-10-05 17:43:50,350  INFO [main] WordpresLogin:52 - Window Maximized
+2020-10-05 17:43:50,595  INFO [main] WordpresLogin:55 - Enter Username...
+2020-10-05 17:43:50,648  INFO [main] WordpresLogin:57 - Enter Password
+2020-10-05 17:43:54,261  INFO [main] WordpresLogin:60 - Click submit button to login to workpress application ....
+2020-10-05 17:43:54,269  INFO [main] WordpresLogin:65 - Wordpress howe page titleDashboard ‹ Wordpress Site — WordPress
+2020-10-05 17:43:54,270  INFO [main] WordpresLogin:74 - calling logout- method
+2020-10-05 17:43:57,453  INFO [main] WordpresLogin:78 - click on administrator to logout from application
+2020-10-05 17:43:58,106  INFO [main] WordpresLogin:82 - Click on logout
+2020-10-05 17:43:58,111  INFO [main] WordpresLogin:85 - Logout from wordpress
+2020-10-05 17:43:58,114  INFO [main] WordpresLogin:89 - logout page title Log In ‹ Wordpress Site — WordPress
+2020-10-05 17:43:58,115  INFO [main] WordpresLogin:44 - ---Execution started ----
+2020-10-05 17:43:58,115  INFO [main] WordpresLogin:45 - Navigating to URL
+2020-10-05 17:43:58,933  INFO [main] WordpresLogin:52 - Window Maximized
+2020-10-05 17:43:58,979  INFO [main] WordpresLogin:55 - Enter Username...
+2020-10-05 17:43:59,025  INFO [main] WordpresLogin:57 - Enter Password
+2020-10-05 17:43:59,672  INFO [main] WordpresLogin:60 - Click submit button to login to workpress application ....
+2020-10-05 17:43:59,683  INFO [main] WordpresLogin:65 - Wordpress howe page titleLog In ‹ Wordpress Site — WordPress
